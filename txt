@@ -1,0 +1,16 @@
+first class function
+
+
+List --       indexed , ordered(store in mem) , mutable(access to change when running) , heterogenous ,have dupilicate,just values ,[],list[]
+tuple --      indexed , ordered               , immutable                              , heterogenous ,have dupilicate,just value ,(), tuple()
+set--         unindexed , unordered           , mutable                                , heterogenous ,only unique value,just value ,{},set()
+dictionary -- unindexed , ordered             , mutable                                , heterogenous , have dupilicate,key values pair,{},dict()
+
+
+List                     tuple                    set                     dictionary
+indexed                  indexed                 unindexed                unindexed
+ordered
+mutable
+heterogenous
+have dupilicate
+just values
