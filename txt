@@ -14,3 +14,13 @@ mutable
 heterogenous
 have dupilicate
 just values
+
+lambda and map
+x2=list(map(lambda i:i**2,x))
+
+comprehension
+x=[1,2,3,4]
+x2=[i**2 for in x]
+
+syntax:
+new_list= [operation loop condition(optional)]
