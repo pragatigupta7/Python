@@ -7,7 +7,7 @@ import plotly.express as px
 # global variables
 years = list(map(str, range(1980, 2014)))
 
-# loading data
+#loading data
 @st.cache_data
 def load_data():
     df = pd.read_excel("Canada.xlsx", sheet_name=1, skiprows=20, skipfooter=2)
